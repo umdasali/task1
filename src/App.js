@@ -8,7 +8,7 @@ import DataProvider from "./Provider/DataProvider";
 function App() {
   return (
     <React.Fragment>
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Switch>
         <DataProvider>
         <Route exact path="/" component={Login}/>
