@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.form-control{
+  border: none;
+  border-bottom: 1px solid #ced4da;
+  border-radius: 0px;
+}
+.btn-purple{
+  width: 100%;
+  background-color: #6f42c1;
+  color: white;
+}
+.btn-sm-purple{
+  
+  background-color: #6f42c1;
+  color: white;
+}
+.btn-white{
+  width: 90%;
+  color: #6f42c1;
+}
+.rounded {
+  border-radius: .50rem!important;
+}
+.para{
+  color: #636363;
+}
+.orange-color{
+  color: #fd7e31;
+}
